@@ -46,6 +46,7 @@ qui implémentent IDao (qui est une interface) et Metier (qui implémente aussi 
             ![image](https://github.com/ayoubbenlahcen/principe-d-inversion-de-contr-le-et-injection-des-d-pendances-/assets/152870306/29079eaa-ca86-4499-a0f1-36d45bfe95c9)
    
       3.6) Voici le fichier de configuration config.txt :
+   
             ![image](https://github.com/ayoubbenlahcen/principe-d-inversion-de-contr-le-et-injection-des-d-pendances-/assets/152870306/eb4206e7-b9b4-4f34-a366-6056b0900b62)
 
 
