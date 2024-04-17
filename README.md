@@ -1,4 +1,4 @@
-![image](https://github.com/ayoubbenlahcen/principe-d-inversion-de-contr-le-et-injection-des-d-pendances-/assets/152870306/0af1bfde-05dd-4220-9468-72ce6b4bc090)
+![image](https://github.com/ayoubbenlahcen/principe-d-inversion-de-contr-le-et-injection-des-d-pendances-/assets/152870306/a2edbdbe-3e1a-4a8c-98cf-6be9dee23538)
 ![MIAAD](https://github.com/ayoubbenlahcen/principe-d-inversion-de-contr-le-et-injection-des-d-pendances-/assets/152870306/2e15dcd7-0160-40d5-a08d-32554861f25c)
 
                               Notre application vise à explorer les deux principes fondamentaux d'inversion de contrôle et d'injection de dépendances en Java.
