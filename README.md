@@ -1,4 +1,3 @@
-  ![image](https://github.com/ayoubbenlahcen/principe-d-inversion-de-contr-le-et-injection-des-d-pendances-/assets/152870306/a2edbdbe-3e1a-4a8c-98cf-6be9dee23538)
 
                               Notre application vise à explorer les deux principes fondamentaux d'inversion de contrôle et d'injection de dépendances en Java.
 _________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
