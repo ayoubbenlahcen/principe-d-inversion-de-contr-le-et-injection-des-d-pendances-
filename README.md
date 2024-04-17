@@ -117,5 +117,5 @@ Les points à retenir :
    ce qui nous permet de rendre notre application fermée à n'importe quelle modification et ouverte à n'importe quelle extension. 
    Si nous essayons de le faire avec un couplage fort (dépendance de classe), notre application pourrait fonctionner, mais elle serait difficile à maintenir. 
    Pour une entreprise, cela signifie que votre application ne sera pas performante, 
-   ce qui peut conduire à son abandon, c'est-à-dire à son retrait du marché.
+   ce qui peut conduire à son abandon, c'est-à-dire à son retrait du marché =====>(On le met à la poubelle).
    
