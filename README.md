@@ -15,30 +15,35 @@ qui implémentent IDao (qui est une interface) et Metier (qui implémente aussi 
              ![image](https://github.com/ayoubbenlahcen/principe-d-inversion-de-contr-le-et-injection-des-d-pendances-/assets/152870306/f0724fbb-ffec-4e64-ac74-300675ec2fba)
    
        2.2) Voici la classe DaoImpl qui est considérée comme une version de la base de données :
-             ![image](https://github.com/ayoubbenlahcen/principe-d-inversion-de-contr-le-et-injection-des-d-pendances-/assets/152870306/08f35775-e193-49a4-977d-99efb14c44dd)
+             ![image](https://github.com/ayoubbenlahcen/principe-d-inversion-de-contr-le-et-injection-des-d-pendances-/assets/152870306/8485a884-e20c-4896-9fbc-dcd07d7dfed4)
+
    
-       2.3) Voici l'interface IMetier :
+       2.3) Voici la classe DaoImpl qui est considérée comme une version de la base de données :
+             ![image](https://github.com/ayoubbenlahcen/principe-d-inversion-de-contr-le-et-injection-des-d-pendances-/assets/152870306/08f35775-e193-49a4-977d-99efb14c44dd)
+
+       2.4) Voici l'interface IMetier :
             ![image](https://github.com/ayoubbenlahcen/principe-d-inversion-de-contr-le-et-injection-des-d-pendances-/assets/152870306/efa5b390-06e6-4de5-b335-e660e259864e)
    
-       2.4) Voici l'interface MetierImpl où nous allons effectuer les traitements (le code métier) :
+       2.5) Voici l'interface MetierImpl où nous allons effectuer les traitements (le code métier) :
             ![image](https://github.com/ayoubbenlahcen/principe-d-inversion-de-contr-le-et-injection-des-d-pendances-/assets/152870306/43dd138d-8795-4a3a-8766-13d7417c41fb)
    
        pour  la partir presentation on a faire 2 calsse pres  qui va contenier la methode main 
 
       2.5) Voici la classe Pres :
             ![image](https://github.com/ayoubbenlahcen/principe-d-inversion-de-contr-le-et-injection-des-d-pendances-/assets/152870306/b2849dee-0598-4ac0-bfff-5585c2faf340)
+           # output :
+               ![image](https://github.com/ayoubbenlahcen/principe-d-inversion-de-contr-le-et-injection-des-d-pendances-/assets/152870306/06cc7ed3-10ae-4d3d-a54c-3ebf10bad3c9)
 
+
+   
    
 4) Maintenant en va faire l'injection des dependances en utlilisant la manier dynamique :******************************************************************************************************
 
-       3.1) Voici l'interface IDao, c'est la même.
-
-       3.2) Voici la classe DaoImplV2 qui est considérée comme une version web service :
-            ![image](https://github.com/ayoubbenlahcen/principe-d-inversion-de-contr-le-et-injection-des-d-pendances-/assets/152870306/b12902b8-3ff0-4b2d-bd1e-509caff64b5d)
+       3.1)l'interface IDao, c'est la même aussi la daoImpl et  doaImplV2.
    
-       3.3) l'interface IMetier, c'est la même que la première.
+       3.2) l'interface IMetier, c'est la même que la première.
 
-       3.4) Voici l'interface MetierImpl où nous allons effectuer les traitements (le code métier) :
+       3.3) Voici l'interface MetierImpl où nous allons effectuer les traitements (le code métier) :
             ![image](https://github.com/ayoubbenlahcen/principe-d-inversion-de-contr-le-et-injection-des-d-pendances-/assets/152870306/43dd138d-8795-4a3a-8766-13d7417c41fb)
    
       Pour la partie présentation, nous avons créé une deuxième classe Pres2 qui va contenir la méthode main
@@ -48,6 +53,9 @@ qui implémentent IDao (qui est une interface) et Metier (qui implémente aussi 
             ![image](https://github.com/ayoubbenlahcen/principe-d-inversion-de-contr-le-et-injection-des-d-pendances-/assets/152870306/a66672b3-3b59-4fc0-82bc-ca98a9a9fc91)
             ![image](https://github.com/ayoubbenlahcen/principe-d-inversion-de-contr-le-et-injection-des-d-pendances-/assets/152870306/a6f2efdf-fa40-4475-8a14-f998fed1da7c)
             ![image](https://github.com/ayoubbenlahcen/principe-d-inversion-de-contr-le-et-injection-des-d-pendances-/assets/152870306/29079eaa-ca86-4499-a0f1-36d45bfe95c9)
+
+         # output :
+               ![image](https://github.com/ayoubbenlahcen/principe-d-inversion-de-contr-le-et-injection-des-d-pendances-/assets/152870306/3b362a1f-a677-4d42-a4bc-9061d02ca021)
    
       3.6) Voici le fichier de configuration config.txt :
             ![image](https://github.com/ayoubbenlahcen/principe-d-inversion-de-contr-le-et-injection-des-d-pendances-/assets/152870306/eb4206e7-b9b4-4f34-a366-6056b0900b62)
@@ -69,6 +77,9 @@ qui implémentent IDao (qui est une interface) et Metier (qui implémente aussi 
       4.1.1) Nous laisserons toutes les classes sans changement comme dans la partie précédente, seulement la partie présentation va être modifiée comme suit :
             ![image](https://github.com/ayoubbenlahcen/principe-d-inversion-de-contr-le-et-injection-des-d-pendances-/assets/152870306/25d69e53-7828-4ed0-b14c-5dc4ba2cb7c7)
             
+         # output :
+               ![image](https://github.com/ayoubbenlahcen/principe-d-inversion-de-contr-le-et-injection-des-d-pendances-/assets/152870306/a583de94-2b79-47ba-bc40-e6feabab0b3f)
+            
       4.1.2) Voici le fichier de configuration config.xml:
             ![image](https://github.com/ayoubbenlahcen/principe-d-inversion-de-contr-le-et-injection-des-d-pendances-/assets/152870306/7531e149-d77e-4c72-9d4f-a8f8e69877ae)
 
@@ -83,6 +94,9 @@ qui implémentent IDao (qui est une interface) et Metier (qui implémente aussi 
             
       4.2.3) Pour la classe Pres :
             ![image](https://github.com/ayoubbenlahcen/principe-d-inversion-de-contr-le-et-injection-des-d-pendances-/assets/152870306/0636baff-694b-42a7-887f-00f20b03aa66)
+            
+         # output :
+               ![image](https://github.com/ayoubbenlahcen/principe-d-inversion-de-contr-le-et-injection-des-d-pendances-/assets/152870306/abff7bb5-425e-42d9-a59e-2feb5d563444)
 
 Les points à retenir : 
 
