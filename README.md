@@ -39,13 +39,14 @@ qui implémentent IDao (qui est une interface) et Metier (qui implémente aussi 
 
    
    
-4) Maintenant en va faire l'injection des dependances en utlilisant la manier dynamique :******************************************************************************************************
+3) Maintenant en va faire l'injection des dependances en utlilisant la manier dynamique :******************************************************************************************************
 
        3.1)l'interface IDao, c'est la même aussi la daoImpl et  doaImplV2.
    
        3.2) l'interface IMetier, c'est la même que la première.
 
        3.3) Voici l'interface MetierImpl où nous allons effectuer les traitements (le code métier) :
+   
             ![image](https://github.com/ayoubbenlahcen/principe-d-inversion-de-contr-le-et-injection-des-d-pendances-/assets/152870306/43dd138d-8795-4a3a-8766-13d7417c41fb)
    
       Pour la partie présentation, nous avons créé une deuxième classe Pres2 qui va contenir la méthode main
@@ -63,7 +64,7 @@ qui implémentent IDao (qui est une interface) et Metier (qui implémente aussi 
             ![image](https://github.com/ayoubbenlahcen/principe-d-inversion-de-contr-le-et-injection-des-d-pendances-/assets/152870306/eb4206e7-b9b4-4f34-a366-6056b0900b62)
 
 
-6) Maintenant, nous allons faire l'injection des dépendances en utilisant Spring :
+4) Maintenant, nous allons faire l'injection des dépendances en utilisant Spring :
     Remarque :
               Pour intégrer Spring dans votre projet, nous choisissons de créer dès le début un projet Maven qui contient un fichier de configuration (pom.xml)
               où nous allons spécifier les configurations nécessaires pour que Spring fonctionne avec nous dans ce projet (je parle des dépendances).
