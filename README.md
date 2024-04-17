@@ -120,5 +120,3 @@ Les points à retenir :
    ce qui peut conduire à son abandon, c'est-à-dire à son retrait du marché =====>(On le met à la poubelle).
    
 ![image](https://github.com/ayoubbenlahcen/principe-d-inversion-de-contr-le-et-injection-des-d-pendances-/assets/152870306/29617c67-f33c-467a-8a2b-5ca3dbcc9518)
-
-
