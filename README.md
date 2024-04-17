@@ -33,6 +33,7 @@ qui implémentent IDao (qui est une interface) et Metier (qui implémente aussi 
             ![image](https://github.com/ayoubbenlahcen/principe-d-inversion-de-contr-le-et-injection-des-d-pendances-/assets/152870306/b2849dee-0598-4ac0-bfff-5585c2faf340)
    
            # output :
+   
                ![image](https://github.com/ayoubbenlahcen/principe-d-inversion-de-contr-le-et-injection-des-d-pendances-/assets/152870306/06cc7ed3-10ae-4d3d-a54c-3ebf10bad3c9)
 
 
