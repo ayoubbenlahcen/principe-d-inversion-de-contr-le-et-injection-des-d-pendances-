@@ -13,7 +13,7 @@ qui implémentent IDao (qui est une interface) et Metier (qui implémente aussi 
 2) Commencant par l'injection des dépendances en utilisant la manière statique :
    
         2.1) Voici l'interface IDao :
-             ![image](https://github.com/ayoubbenlahcen/principe-d-inversion-de-contr-le-et-injection-des-d-pendances-/assets/152870306/f0724fbb-ffec-4e64-ac74-300675ec2fba)
+   ![image](https://github.com/ayoubbenlahcen/principe-d-inversion-de-contr-le-et-injection-des-d-pendances-/assets/152870306/f0724fbb-ffec-4e64-ac74-300675ec2fba)
    
        2.2) Voici la classe DaoImpl qui est considérée comme une version de la base de données :
    ![image](https://github.com/ayoubbenlahcen/principe-d-inversion-de-contr-le-et-injection-des-d-pendances-/assets/152870306/8485a884-e20c-4896-9fbc-dcd07d7dfed4)
