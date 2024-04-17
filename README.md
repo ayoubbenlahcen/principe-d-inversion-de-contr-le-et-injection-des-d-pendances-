@@ -1,3 +1,7 @@
+                              Notre application vise à explorer les deux principes fondamentaux d'inversion de contrôle et d'injection de dépendances en Java.
+_________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+
 1) Voici l'architecture de la partie 1 de TP1 qui consiste à faire l'injection des dépendances de manière classique, autrement dit sans utiliser le Framework Spring. Tel que nous avons essayé de le faire de deux façons :
 La première est statique, c'est-à-dire à l'aide de l'instanciation des objets DaoImpl et MetierImpl dans la classe prés (à l'aide de l'opérateur new).
 
