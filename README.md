@@ -8,33 +8,42 @@ qui implémentent IDao (qui est une interface) et Metier (qui implémente aussi 
 2) Commencant par l'injection des dépendances en utilisant la manière statique :
         2.1) Voici l'interface IDao :
              ![image](https://github.com/ayoubbenlahcen/principe-d-inversion-de-contr-le-et-injection-des-d-pendances-/assets/152870306/f0724fbb-ffec-4e64-ac74-300675ec2fba)
+   
        2.2) Voici la classe DaoImpl qui est considérée comme une version de la base de données :
              ![image](https://github.com/ayoubbenlahcen/principe-d-inversion-de-contr-le-et-injection-des-d-pendances-/assets/152870306/08f35775-e193-49a4-977d-99efb14c44dd)
+   
        2.3) Voici l'interface IMetier :
             ![image](https://github.com/ayoubbenlahcen/principe-d-inversion-de-contr-le-et-injection-des-d-pendances-/assets/152870306/efa5b390-06e6-4de5-b335-e660e259864e)
+   
        2.4) Voici l'interface MetierImpl où nous allons effectuer les traitements (le code métier) :
             ![image](https://github.com/ayoubbenlahcen/principe-d-inversion-de-contr-le-et-injection-des-d-pendances-/assets/152870306/43dd138d-8795-4a3a-8766-13d7417c41fb)
+   
        pour  la partir presentation on a faire 2 calsse pres  qui va contenier la methode main 
        2.5) Voici la classe Pres :
             ![image](https://github.com/ayoubbenlahcen/principe-d-inversion-de-contr-le-et-injection-des-d-pendances-/assets/152870306/b2849dee-0598-4ac0-bfff-5585c2faf340)
-3) Maintenant en va faire l'injection des dependances en utlilisant la manier dynamique :******************************************************************************************************
+
+   
+4) Maintenant en va faire l'injection des dependances en utlilisant la manier dynamique :******************************************************************************************************
        3.1) Voici l'interface IDao, c'est la même.
        3.2) Voici la classe DaoImplV2 qui est considérée comme une version web service :
             ![image](https://github.com/ayoubbenlahcen/principe-d-inversion-de-contr-le-et-injection-des-d-pendances-/assets/152870306/b12902b8-3ff0-4b2d-bd1e-509caff64b5d)
-       3.3) Voici l'interface IMetier, c'est la même que la première.
+   
+       3.3) l'interface IMetier, c'est la même que la première.
        3.4) Voici l'interface MetierImpl où nous allons effectuer les traitements (le code métier) :
             ![image](https://github.com/ayoubbenlahcen/principe-d-inversion-de-contr-le-et-injection-des-d-pendances-/assets/152870306/43dd138d-8795-4a3a-8766-13d7417c41fb)
+   
       Pour la partie présentation, nous avons créé une deuxième classe Pres2 qui va contenir la méthode main
       et qui est différente de la première. Dans cette dernière, nous allons effectuer l'instanciation dynamique des objets DAO et aussi Metier, mais à l'aide d'un fichier config.txt qui va contenir la localisation des classes DAO et Metier :
       3.5) Voici la classe Pres2 :
             ![image](https://github.com/ayoubbenlahcen/principe-d-inversion-de-contr-le-et-injection-des-d-pendances-/assets/152870306/a66672b3-3b59-4fc0-82bc-ca98a9a9fc91)
             ![image](https://github.com/ayoubbenlahcen/principe-d-inversion-de-contr-le-et-injection-des-d-pendances-/assets/152870306/a6f2efdf-fa40-4475-8a14-f998fed1da7c)
             ![image](https://github.com/ayoubbenlahcen/principe-d-inversion-de-contr-le-et-injection-des-d-pendances-/assets/152870306/29079eaa-ca86-4499-a0f1-36d45bfe95c9)
+   
       3.6) Voici le fichier de configuration config.txt :
             ![image](https://github.com/ayoubbenlahcen/principe-d-inversion-de-contr-le-et-injection-des-d-pendances-/assets/152870306/eb4206e7-b9b4-4f34-a366-6056b0900b62)
 
 
-4) Maintenant, nous allons faire l'injection des dépendances en utilisant Spring :
+6) Maintenant, nous allons faire l'injection des dépendances en utilisant Spring :
     Remarque :
               Pour intégrer Spring dans votre projet, nous choisissons de créer dès le début un projet Maven qui contient un fichier de configuration (pom.xml)
               où nous allons spécifier les configurations nécessaires pour que Spring fonctionne avec nous dans ce projet (je parle des dépendances).
