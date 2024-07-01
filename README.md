@@ -3,11 +3,10 @@
 _________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 
-1) Voici l'architecture de la partie 1 de TP1 qui consiste à faire l'injection des dépendances de manière classique, autrement dit sans utiliser le Framework Spring. Tel que nous avons essayé de le faire de deux façons :
-La première est statique, c'est-à-dire à l'aide de l'instanciation des objets DaoImpl et MetierImpl dans la classe prés (à l'aide de l'opérateur new).
+1) Voici l'architecture de la partie 1 de TP1, qui consiste à réaliser l'injection des dépendances de manière classique, c'est-à-dire sans utiliser le Framework Spring. Nous avons tenté de le faire de deux manières :
 
-La deuxième est dynamique, à l'aide de l'instanciation dynamique tout en utilisant un fichier texte de configuration où l'on fait la localisation des classes DAO
-qui implémentent IDao (qui est une interface) et Metier (qui implémente aussi l'interface IMetier).
+Méthode statique : Par instanciation des objets DaoImpl et MetierImpl dans la classe principale à l'aide de l'opérateur new.
+Méthode dynamique : Par instanciation dynamique en utilisant un fichier texte de configuration. Ce fichier permet la localisation des classes DAO qui implémentent IDao (une interface) et Metier (qui implémente également l'interface IMetier).
    ![image](https://github.com/ayoubbenlahcen/principe-d-inversion-de-contr-le-et-injection-des-d-pendances-/assets/152870306/e4b9d89b-6751-4e09-8501-0e3dcbfa7fb8)
 
 2) Commencant par l'injection des dépendances en utilisant la manière statique :
