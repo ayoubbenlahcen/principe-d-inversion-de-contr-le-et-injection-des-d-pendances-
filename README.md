@@ -53,18 +53,18 @@ dynamique des objets DAO et Metier à l'aide du fichier config.txt qui contient 
             ![image](https://github.com/ayoubbenlahcen/principe-d-inversion-de-contr-le-et-injection-des-d-pendances-/assets/152870306/29079eaa-ca86-4499-a0f1-36d45bfe95c9)
 
          # output :
-      ![image](https://github.com/ayoubbenlahcen/principe-d-inversion-de-contr-le-et-injection-des-d-pendances-/assets/152870306/3b362a1f-a677-4d42-a4bc-9061d02ca021)
+  ![image](https://github.com/ayoubbenlahcen/principe-d-inversion-de-contr-le-et-injection-des-d-pendances-/assets/152870306/3b362a1f-a677-4d42-a4bc-9061d02ca021)
    
       3.6) Voici le fichier de configuration config.txt :
-            ![image](https://github.com/ayoubbenlahcen/principe-d-inversion-de-contr-le-et-injection-des-d-pendances-/assets/152870306/eb4206e7-b9b4-4f34-a366-6056b0900b62)
+  ![image](https://github.com/ayoubbenlahcen/principe-d-inversion-de-contr-le-et-injection-des-d-pendances-/assets/152870306/eb4206e7-b9b4-4f34-a366-6056b0900b62)
 
 
 Maintenant, nous allons réaliser l'injection des dépendances en utilisant Spring :
 ### Remarque :
 Pour intégrer Spring dans notre projet, nous avons choisi de créer un projet Maven dès le début, incluant un fichier de configuration pom.xml. Ce fichier spécifie les dépendances nécessaires pour que Spring fonctionne avec notre projet. 
 Voici notre fichier de configuration :
-                 ![image](https://github.com/ayoubbenlahcen/principe-d-inversion-de-contr-le-et-injection-des-d-pendances-/assets/152870306/80c7d199-f38f-4e95-80be-114b6b23fe96)
-                 ![image](https://github.com/ayoubbenlahcen/principe-d-inversion-de-contr-le-et-injection-des-d-pendances-/assets/152870306/1cde3012-0376-42d9-8fe0-eb5aed6abddb)
+![image](https://github.com/ayoubbenlahcen/principe-d-inversion-de-contr-le-et-injection-des-d-pendances-/assets/152870306/80c7d199-f38f-4e95-80be-114b6b23fe96)
+![image](https://github.com/ayoubbenlahcen/principe-d-inversion-de-contr-le-et-injection-des-d-pendances-/assets/152870306/1cde3012-0376-42d9-8fe0-eb5aed6abddb)
 
    Pour faire cà, il y a deux façons :
    
